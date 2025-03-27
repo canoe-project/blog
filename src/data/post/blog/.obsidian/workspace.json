@@ -1,24 +1,44 @@
 {
   "main": {
-    "id": "7f32cbf7bf357aab",
+    "id": "35645a3cfcd840f5",
     "type": "split",
     "children": [
       {
-        "id": "b14f3f548b9752f9",
+        "id": "751a35222bcbdeee",
         "type": "tabs",
         "children": [
           {
-            "id": "e4fe3500deea3e11",
+            "id": "5b2eab6626c913ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 1/useeffect-guide.md",
+                "file": "환영합니다!.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "useeffect-guide"
+              "title": "환영합니다!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9f916c7b94aebdab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3921a947d6541ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "create a link.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "create a link"
             }
           }
         ]
@@ -27,15 +47,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a92704f1f1e41067",
+    "id": "b787b843fdbe80b2",
     "type": "split",
     "children": [
       {
-        "id": "a608ce177a37f9ec",
+        "id": "213d5b84c019f74f",
         "type": "tabs",
         "children": [
           {
-            "id": "bac7dca4c5b05fd5",
+            "id": "c48695223a7a0934",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +68,7 @@
             }
           },
           {
-            "id": "23e429787fbd0772",
+            "id": "ddbf38ceaa92dcb8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +85,7 @@
             }
           },
           {
-            "id": "a2a9e8aaa6fa9bb0",
+            "id": "689697d5cd18804a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +101,20 @@
     "width": 300
   },
   "right": {
-    "id": "a0ea388b78311872",
+    "id": "487d457ca3b6deef",
     "type": "split",
     "children": [
       {
-        "id": "f421c510bb2918c4",
+        "id": "e7c8913fdb8500ce",
         "type": "tabs",
         "children": [
           {
-            "id": "c3251d4862e614d4",
+            "id": "14d75a4680ea4330",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 1/useeffect-guide.md",
+                "file": "create a link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +124,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "useeffect-guide 의 백링크"
+              "title": "create a link 의 백링크"
             }
           },
           {
-            "id": "843f9bef73098972",
+            "id": "0b994c8b3298575d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 1/useeffect-guide.md",
+                "file": "create a link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "useeffect-guide 의 나가는 링크"
+              "title": "create a link 의 나가는 링크"
             }
           },
           {
-            "id": "83ce0b9c05bb2d98",
+            "id": "e744571a17e6c999",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +157,18 @@
             }
           },
           {
-            "id": "96d990d498ccfa22",
+            "id": "c9ccbefb8be094cb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 1/useeffect-guide.md",
+                "file": "create a link.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "useeffect-guide 의 개요"
+              "title": "create a link 의 개요"
             }
           }
         ]
@@ -168,8 +188,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e4fe3500deea3e11",
+  "active": "d3921a947d6541ff",
   "lastOpenFiles": [
-    "useeffect-guide.md"
+    "create a link.md",
+    "환영합니다!.md"
   ]
 }
