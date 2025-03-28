@@ -48,7 +48,7 @@ const metadataDefinition = () =>
 
 const postCollection = defineCollection({
   loader: glob({
-    pattern: ['**/*.md', '!templates/*.md'],
+    pattern: ['**/*.md', '!templates/*.md', '!snippets/*.md', '!file/**/*'],
     base: 'src/data/post',
   }),
   schema: z.object({
