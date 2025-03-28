@@ -1,15 +1,27 @@
----
-publishDate: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>Z"
-title: "<% tp.file.title %>"
+<%*
+const folder = tp.file.folder(true).split('/').pop();
+const map = {
+  "기획": "planning",
+  "디자인": "design",
+  "개발": "dev",
+  "연구노트": "research",
+  "프로젝트": "project",
+};
+tR += `---
+publishDate: "${tp.date.now('YYYY-MM-DDTHH:mm:ss') + 'Z'}"
+title: "${tp.file.title}"
 excerpt: ""
 image: https://images.unsplash.com/photo-1561069934-eee225952461?auto=format&fit=crop&w=2070&q=80
 tags:
   - landing-pages
   - front-end
   - resources
+category: "${map[folder] || 'etc'}"
 metadata:
   canonical: https://your-blog.vercel.app/{{slug}}
----
+---`
+%>
+
 
 # <% tp.file.title %>
 

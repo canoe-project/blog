@@ -19,6 +19,23 @@ const { page, category } = Astro.props as Props;
 
 const currentPage = page.currentPage ?? 1;
 
+const getCategoryTitle = (slug: string) => {
+  switch (slug) {
+    case 'planning':
+      return '기획';
+    case 'design':
+      return '디자인';
+    case 'dev':
+      return '개발';
+    case 'research':
+      return '연구노트';
+    case 'project':
+      return '프로젝트';
+    default:
+      return slug; // fallback
+  }
+};
+
 const metadata = {
   title: `Category '${category.title}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   robots: {
@@ -30,7 +47,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
-    <Headline>{category.title}</Headline>
+    <Headline>{getCategoryTitle(category.title)}</Headline>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
   </section>
